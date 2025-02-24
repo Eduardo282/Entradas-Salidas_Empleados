@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';   
+@import './fonts.css';
+
+
+.back{
+    background-image: url('./assets/gobierno.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 2px;
+    z-index: 999;
+}
+/* Para usar Patria */
+.patriaBold {
+    font-family: 'Patria', sans-serif;
+    font-weight: 700;
+    /*font-size: 18pt;*/
+  }
+  
+  .patriaRegular {
+    font-family: 'Patria', sans-serif;
+    font-weight: 400;
+    /*font-size: 16pt;*/
+  }
+  
+  .patriaLight {
+    font-family: 'Patria', sans-serif;
+    font-weight: 400;
+    /*font-size: 16pt;*/
+  }
+  
+  .notoSansLightItalic{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .notoSansRegular{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;;
+  }
+  
+  .notoSansMedium{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+  }
+
